@@ -1,0 +1,139 @@
+
+/*User DASHBOARD*/
+
+body{
+    background-color: antiquewhite;
+    background-image: url(library.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(95, 53, 6);
+   
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  
+    
+}
+
+.container-1{
+    width: 100%;
+}
+
+#logoutBtn{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(207, 117, 6);
+    color: black;
+    
+    
+}
+
+#logoutBtn:hover{
+    background-color: antiquewhite;
+}
+.container ul{
+    text-align: left;
+
+}
+h1 {
+    
+    text-align: center;
+    width: 300px;
+    background-color: antiquewhite;
+    color: rgb(95, 53, 6);
+}
+.availBooks{
+    color: antiquewhite;
+    background-image: url(pic-1.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    border: 3px solid white;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+
+}
+
+.availBooks ul{
+    text-align: left;
+    color: rgb(95, 53, 6);
+    font-size: 20px;
+}
+
+.availBooks h2{
+    padding: 30px;
+    color: rgb(95, 53, 6);
+}
+#userNameDisplay{
+    color:rgb(207, 129, 12);
+    font-family: fantasy;
+    text-shadow: 2px 2px wheat;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content:space-around;
+   
+}
+ 
+.borrow{
+    box-shadow: 2px 4px 4px 4px rgb(170, 105, 8);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    text-shadow: 3px 3px rgb(177, 112, 37);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 20px;
+    font-family: cursive;
+
+    
+}
+
+#borrowBookId, #returnBookId{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.borrow button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(226, 136, 0);;
+}
+
+
+.borrow button:hover{
+    background-color: rgba(138, 127, 29, 0.568);
+}
+
+.borrowedBooks{
+    background-color:antiquewhite ;
+    margin-top: 2rem;
+    margin-left: 25%;
+    width: 50%;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    border: 2px solid white;
+}
+.borrowedBooks ul{
+    text-align: left;
+}

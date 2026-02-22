@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="user.css">
+    <title>USER DASHBOARD</title>
+</head>
+<body>
+
+    <div class="container">
+    <button id="logoutBtn" onclick="logout()">Logout</button>
+    </div>
+    
+    <h1>Welcome, <span id="userNameDisplay"></span></h1>
+    <div class="container-1">
+    <div class="availBooks">
+        <h2>Available Books</h2>
+        <ul id="availableBooksList"></ul>
+    </div>
+    
+    
+    <div class="borrow">
+        <h3>Borrow a Book</h3>
+        <input type="text" id="borrowBookId" placeholder="Type Book ID" />
+        <button onclick="borrowBook()">Borrow</button>
+   
+
+    <div class="return">
+        <h3>Return a Book</h3>
+        <input type="text" id="returnBookId" placeholder="Type Book ID" />
+        <button onclick="returnBook()">Return</button>
+    </div>
+    </div>
+    </div>
+    
+    <hr>
+
+     <div class="borrowedBooks">
+        <h2>Your Borrowed Books</h2>
+        <ul id="borrowedBooksList"></ul>
+       
+    </div>
+
+ 
+
+    
+    <script src="user.js"></script>
+</body>
+</html>

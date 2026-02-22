@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>LIBRARY MANAGEMENT</title>
+</head>
+<body>
+   
+    <h1>Library Management System</h1>
+
+    <!-- Add / Search Book Section -->
+    <div class="section">
+        <h2>Add / Search Book</h2>
+        <input type="text" id="bookId" placeholder="Book ID">
+        <input type="text" id="bookTitle" placeholder="Book Title">
+        <br><br>
+        <button onclick="addBook()">Add Book</button>
+        <button onclick="searchBook()">Search Book</button>
+    </div>
+
+    <!-- Borrow / Return Section -->
+    <div class="section">
+    <h2>Borrow / Return</h2>
+    <input type="text" id="borrowId" placeholder="Book ID">
+    <input type="text" id="userName" placeholder="Your Name">
+    <br><br>
+    <button onclick="borrowBook()">Borrow Book</button>
+    <button onclick="returnBook()">Return Book</button>
+    </div>
+
+    <!-- Display Book List -->
+    <div class="section">
+        <h2>Book List</h2>
+        <button onclick="displayBooks()">View Books</button>
+        <ul id="bookList"></ul>
+    </div>
+
+    <!-- Display Queue -->
+    <div class="section">
+        <h2>Waiting List (Queue)</h2>
+        <button onclick="displayQueue()">View Waiting List</button>
+        <ul id="queueList"></ul>
+    </div>
+
+    <!-- Display Stack -->
+    <div class="section">
+        <h2>Recently Returned Books (Stack)</h2>
+        <button onclick="displayStack()">View Recently Returned Books</button>
+        <ul id="stackList"></ul>
+    </div>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>

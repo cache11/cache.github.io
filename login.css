@@ -1,0 +1,140 @@
+body{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-family: cursive;
+    background-color: rgb(158, 111, 50);
+    margin: 0;
+    color: wheat;
+    text-shadow: 2px 2px black;
+}
+
+.container{
+    background-image: url("bg-1.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.login{
+    
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 60vh;
+    border: 3px solid wheat;
+    border-radius: 40px;
+    gap: 1rem;
+    align-items: center;
+    background-color: antiquewhite;
+    border-bottom-left-radius: 200px;
+}
+
+#username, #password{
+    background-color: rgb(255, 186, 59);
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+
+#username:hover, #password:hover {
+    background-color: rgb(97, 68, 5);
+}
+
+button{
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(241, 195, 66);
+    margin-left: 10rem;
+}
+
+#sign-up{
+    margin: 0;
+    color: black;
+    text-shadow: none;
+}
+#sign-up a{
+    text-shadow: none;
+    
+}
+
+/*SIGNUP*/
+
+
+.signup{
+    
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 80vh;
+    border: 3px solid wheat;
+    border-radius: 40px;
+    gap: 1rem;
+    align-items: center;
+    background-color: antiquewhite;
+    border-bottom-left-radius: 200px;
+}
+
+
+#username, #password{
+    background-color: rgb(255, 186, 59);
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+
+#username:hover, #password:hover {
+    background-color: rgb(97, 68, 5);
+}
+
+button{
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(241, 195, 66);
+    margin-left: 10rem;
+}
+
+#login{
+    margin: 0;
+    color: black;
+    text-shadow: none;
+}
+#login a{
+    text-shadow: none;
+    
+}
+
+#lastname, #firstname{
+    background-color: rgb(255, 186, 59);
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+
+#lastname:hover, #firstname:hover {
+    background-color: rgb(97, 68, 5);
+}
+
+#confirmedPassword{
+    background-color: rgb(255, 186, 59);
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    border: none;
+}
